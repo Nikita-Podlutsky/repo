@@ -25,7 +25,6 @@ for i in data:
 def sor(l):
     lind = 0
     nl = [l[0]]
-    # li = l[0][1]
     for i in l[1:]:
         j = 0
         try:
@@ -74,7 +73,7 @@ for i in sor(data)[::-1]:
 
 # Запись в файл
 
-with open("scientist2.txt","w", encoding="utf-8") as f:
+with open("scientist.txt","w", encoding="utf-8") as f:
     f.write(ans)
 
 
